@@ -2,7 +2,7 @@ require "minitest/autorun"
 require_relative "exact_change.rb"
 
 class Testvariouscoinamounts < Minitest::Test
-
+		# Several tests with different change amounts:
 	def test_changecount_for_1_cent_returns_1_penny
 		seeking = {:penny=>1}
 		method_input=exact_change(1)

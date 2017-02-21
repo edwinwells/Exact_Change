@@ -14,3 +14,4 @@ def exact_change(changevalue)
 return changecount
 
 end
+		#Write & run several tests
