@@ -7,6 +7,6 @@ end
 
 post '/exact_change(changevalue)' do
 	number = params[:changevalue]
-	result=number
-print " Here you go: #{result}!"
+	result = exact_change(number)
+	"OK, for #{number}, you will need #{result}!  Get to countin'!!"
 end
