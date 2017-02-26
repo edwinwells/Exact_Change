@@ -8,5 +8,7 @@ end
 post '/exact_change(changevalue)' do
 	number = params[:changevalue]
 	result = exact_change(number)
-	"OK, for #{number}, you will need #{result}!  Get to countin'!!"
+	# "OK, for #{number}, you will need #{result}!  Get to countin'!!"
+	erb :showinfo, :locals => {:number => number, 
+		                       :result => result}
 end
