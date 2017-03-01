@@ -9,6 +9,7 @@ color: darkmagenta;
 }
 
 .center{
+border-bottom: 5px double red;
 text-align: center;
 
 }
